@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+#sitebox {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#header {
+    text-align: left;
+    background-color: #eff5ea;
+    padding: 20px 0;
+}
+
+#header h1 {
+    color: #7fa43a;
+    font-size: 40px;
+    font-family: 'Verdana', sans-serif;
+}
+
+#header .subtitle span {
+    color: #7f7f7f;
+    font-size: 14px;
+}
+
+/* Navigation */
+#navigation {
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #7fa43a;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#navigation a:hover {
+    color: #333;
+}
+
+/* Top imagen */
+#navigation img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Content de Izquierda */
+#lcontent {
+    float: left;
+    width: 49%;
+    padding-right: 1%;
+}
+
+#lcontent h2 {
+    color: #3a67ba;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#lcontent p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+#lcontent p a {
+    color: #7fa43a;
+    text-decoration: none;
+}
+
+#lcontent p a:hover {
+    text-decoration: underline;
+}
+
+/* Right Content */
+#rcontent {
+    float: right;
+    width: 49%;
+}
+
+#rcontent h2 {
+    color: #d85833;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#rcontent p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+#rcontent p a {
+    color: #7fa43a;
+    text-decoration: none;
+}
+
+#rcontent p a:hover {
+    text-decoration: underline;
+}
+
+#sitebox::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Footer */
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #7f7f7f;
+}
